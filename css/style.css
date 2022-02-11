@@ -1,0 +1,1543 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 320px;
+    margin: 0;
+    background-color: #000000;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*section top*/
+
+#top {
+    position: relative;
+}
+
+.container {
+    display: flex;
+}
+
+.asd {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 0 90px 130px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.pro55 {
+    font-size: 107px;
+    font-family: "Poppins";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: .7;
+    text-transform: uppercase;
+    left: 357px;
+    position: absolute;
+    bottom: 96px;
+}
+
+.logo_lenovo {
+    display: flex;
+    justify-content: end;
+}
+
+
+/*section icons*/
+
+#icons {
+    position: relative;
+}
+
+.container_icons {
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 130px;
+    position: absolute;
+    height: 100%;
+}
+
+.igro {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    width: 55%;
+}
+
+.pro {
+    width: 45%;
+    display: flex;
+}
+
+.qwe {
+    margin-bottom: 100px;
+}
+
+.zxc,
+.zxc1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.zxc {
+    margin-right: 50px;
+}
+
+.pro1,
+.pro2,
+.pro3,
+.pro4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro2,
+.pro4 {
+    margin-top: 60px;
+}
+
+.pro1 {
+    margin-bottom: 30px;
+}
+
+.pro1 img,
+.pro2 img,
+.pro3 img,
+.pro4 img {
+    width: 35%;
+}
+
+.pro1 p,
+.pro2 p,
+.pro3 p,
+.pro4 p {
+    font-size: 24px;
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: 300;
+    text-align: center;
+}
+
+
+/*section ryzen*/
+
+#ryzen {
+    position: relative;
+}
+
+.container_ryz {
+    display: flex;
+    align-items: center;
+}
+
+.now {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding: 0 130px;
+    height: 100%;
+}
+
+.amd {
+    align-self: flex-end;
+    margin-bottom: 90px;
+}
+
+.nowy {
+    width: 33%;
+}
+
+.nowy img {
+    width: 95%;
+}
+
+.nowy p,
+.kont p,
+.vision p,
+.nul p,
+.ujm p,
+.tru p,
+.text p,
+.rob p {
+    font-size: 24px;
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+
+/*section game*/
+
+#game {
+    position: relative;
+}
+
+.container_game {
+    display: flex;
+}
+
+.games {
+    position: absolute;
+    height: 100%;
+    padding: 90px 130px;
+}
+
+.kont {
+    width: 33%;
+}
+
+
+/*section dolby*/
+
+#dolby {
+    position: relative;
+}
+
+.container_dolby {
+    display: flex;
+}
+
+.pole {
+    position: absolute;
+    height: 100%;
+    padding: 0 130px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.vision {
+    width: 28%;
+    align-self: flex-end;
+}
+
+.vision img {
+    width: 75%;
+}
+
+.vis {
+    align-self: flex-end;
+    margin-bottom: 90px;
+    margin-top: 170px;
+}
+
+
+/*section fps*/
+
+#fps {
+    position: relative;
+}
+
+.container_fps {
+    display: flex;
+}
+
+.nulowy {
+    position: absolute;
+    height: 100%;
+    padding: 0 130px;
+    align-items: center;
+    display: flex;
+}
+
+.nul {
+    width: 35%;
+}
+
+.nul img {
+    width: 120%;
+}
+
+
+/*section legion*/
+
+#legion {
+    position: relative;
+}
+
+.container_legion {
+    display: flex;
+}
+
+.novo {
+    position: absolute;
+    height: 100%;
+    padding: 0 130px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ujm {
+    width: 35%;
+}
+
+
+/*section true*/
+
+#true {
+    position: relative;
+}
+
+.container_true {
+    display: flex;
+}
+
+.prom {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    height: 100%;
+    padding: 0 130px 90px;
+}
+
+.tru {
+    width: 33%;
+}
+
+.tru img {
+    width: 65%;
+}
+
+
+/*section krok*/
+
+#krok {
+    position: relative;
+}
+
+.container_krok {
+    display: flex;
+}
+
+.nahimic {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    height: 100%;
+    padding: 0 130px 90px 130px;
+}
+
+.kro {
+    display: flex;
+    margin-right: 140px;
+    margin-bottom: -8px;
+    width: 29%;
+}
+
+.text {
+    width: 53%;
+}
+
+
+/*section robota*/
+
+#robota {
+    position: relative;
+}
+
+.container_robota {
+    display: flex;
+}
+
+.robo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    height: 100%;
+    padding: 90px 130px 0;
+}
+
+.rob {
+    width: 35%;
+}
+
+
+/*section xarakter*/
+
+#xarakter {
+    position: relative;
+}
+
+.container_xarakter {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    row-gap: 20px;
+    height: 100%;
+    position: absolute;
+    padding-top: 50px;
+    width: 99%;
+}
+
+.z,
+.pamjat,
+.web {
+    border-left: 1px solid #327aac;
+}
+
+.blok {
+    border-left: none;
+}
+
+.x {
+    padding: 0 15px 0 30px;
+    font-size: 21px;
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: 300;
+    margin: 0;
+    text-transform: none;
+}
+
+.x p {
+    margin: 0;
+}
+
+.logo_lenovo1 {
+    margin-top: 245px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: end;
+}
+
+h3 {
+    font-size: 21px;
+    color: #00f6ff;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.ccc {
+    font-size: 12px;
+    line-height: 17px;
+    padding-top: 25px;
+}
+
+@media screen and (max-width: 1440px) {
+    .container_xarakter {
+        height: 1250px;
+    }
+    .nowy p,
+    .kont p,
+    .vision p,
+    .nul p,
+    .ujm p,
+    .tru p,
+    .text p,
+    .rob p {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .kont img {
+        width: 105%;
+    }
+    .kro img {
+        width: 96%;
+    }
+    .x {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .kro {
+        margin-right: 74px;
+        margin-bottom: -2px;
+        width: 37%;
+    }
+    .text {
+        width: 82%;
+    }
+    .amd {
+        margin-bottom: 60px;
+    }
+    .games {
+        padding: 0 130px;
+        align-items: center;
+        display: flex;
+    }
+    .pole {
+        padding: 0 70px;
+    }
+    .vision {
+        width: 30%;
+    }
+    .vis {
+        margin-bottom: 40px;
+        margin-top: 90px;
+    }
+    .nul img {
+        width: 115%;
+    }
+    .nul {
+        width: 42%;
+    }
+    .ujm img {
+        width: 108%;
+    }
+    .yhn {
+        width: 50%;
+        margin-top: 70px;
+    }
+    .pro1 p,
+    .pro2 p,
+    .pro3 p,
+    .pro4 p {
+        font-size: 17px;
+        line-height: 21px;
+    }
+    .pro1 {
+        margin-bottom: 20px;
+    }
+    .logo_lenovo img,
+    .logo_lenovo1 img {
+        width: 90%;
+    }
+    .logo_lenovo1 {
+        align-items: flex-end;
+        bottom: 0;
+    }
+    .logo_legion img,
+    .vision img {
+        width: 70%;
+    }
+    .vis img {
+        width: 80%;
+    }
+    .pro55 {
+        left: 298px;
+        font-size: 100px;
+    }
+    .grid {
+        padding-top: 30px;
+        row-gap: 50px;
+    }
+    .audio {
+        grid-column: 1 / 3;
+    }
+    .oper,
+    .blok {
+        border-left: 1px solid #327aac;
+    }
+    .show,
+    .akumul,
+    .audio {
+        border-left: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container_xarakter {
+        height: 1160px;
+    }
+    .now,
+    .games {
+        padding: 0 40px;
+    }
+    .nulowy {
+        padding: 0 60px;
+    }
+    .asd {
+        padding: 0 0 60px 70px;
+    }
+    .logo_lenovo img,
+    .logo_lenovo1 img {
+        width: 70%;
+    }
+    .logo_lenovo1 {
+        top: -330px;
+        align-items: center;
+    }
+    .grid {
+        width: 98%;
+        padding-top: 30px;
+        row-gap: 35px;
+    }
+    .x {
+        padding: 0 15px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .audio {
+        grid-column: 1 / 1;
+    }
+    .show,
+    .akumul {
+        border-left: 1px solid #327aac;
+    }
+    .porty,
+    .waga,
+    .pidkl {
+        border-left: none;
+    }
+    .pro55 {
+        left: 214px;
+        font-size: 80px;
+        bottom: 65px;
+    }
+    .kro {
+        margin-right: -18px;
+        margin-bottom: -2px;
+    }
+    .kro img {
+        margin-right: 56px;
+        width: 80%;
+    }
+    .nahimic {
+        padding: 0 0 50px 70px;
+    }
+    .text {
+        width: 56%;
+    }
+    .prom {
+        padding: 0 70px 50px;
+    }
+    .amd {
+        margin-bottom: 30px;
+    }
+    .nowy p,
+    .kont p,
+    .vision p,
+    .nul p,
+    .ujm p,
+    .tru p,
+    .text p,
+    .rob p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .pole {
+        padding: 0 30px;
+    }
+    .vision {
+        width: 32%;
+    }
+    .vision img {
+        width: 65%;
+    }
+    .nul {
+        width: 41%;
+    }
+    .nul img {
+        width: 110%;
+    }
+    .ujm {
+        width: 42%;
+    }
+    .yhn,
+    .rob {
+        width: 47%;
+    }
+    .tru {
+        width: 40%;
+    }
+    .tru img,
+    .vis img,
+    .logo_legion img {
+        width: 60%;
+    }
+    .qwe img,
+    .ujm img {
+        width: 105%;
+    }
+    .pro1 p,
+    .pro2 p,
+    .pro3 p,
+    .pro4 p {
+        font-size: 15px;
+    }
+    .pro {
+        margin-top: 10px;
+    }
+    .icon {
+        padding: 0 80px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container_xarakter {
+        height: 1040px;
+    }
+    .grid {
+        padding-top: 20px;
+        row-gap: 30px;
+    }
+    .pro4 {
+        margin-top: 43px;
+    }
+    .logo_lenovo1 {
+        top: -279px;
+    }
+    .x {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .now,
+    .games {
+        padding: 0 30px;
+    }
+    .logo_lenovo img,
+    .logo_lenovo1 img {
+        width: 55%;
+    }
+    h3 {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+    .ccc {
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .asd {
+        padding: 0 0 40px 50px;
+    }
+    .logo_legion img {
+        width: 53%;
+    }
+    .pro55 {
+        left: 173px;
+        font-size: 71px;
+        bottom: 45px;
+    }
+    .nowy p,
+    .kont p,
+    .vision p,
+    .nul p,
+    .ujm p,
+    .tru p,
+    .text p,
+    .rob p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .kro img {
+        width: 78%;
+    }
+    .text {
+        width: 60%;
+    }
+    .robo {
+        padding-right: 93px;
+        padding-top: 45px;
+    }
+    .rob {
+        width: 52%;
+    }
+    .rob img {
+        width: 90%;
+    }
+    .amd {
+        width: 13%;
+    }
+    .nowy img {
+        width: 85%;
+    }
+    .kont img {
+        width: 94%;
+    }
+    .vis {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+        margin-top: 57px;
+    }
+    .vis img {
+        width: 50%;
+    }
+    .vision img {
+        width: 65%;
+    }
+    .nul img {
+        width: 93%;
+    }
+    .nul {
+        width: 51%;
+    }
+    .ujm {
+        width: 47%;
+    }
+    .novo {
+        padding: 0 70px;
+    }
+    .yhn {
+        width: 45%;
+    }
+    .ujm img {
+        width: 86%;
+    }
+    .pro1 p,
+    .pro2 p,
+    .pro3 p,
+    .pro4 p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .container_xarakter {
+        height: 1250px;
+    }
+    .nowy p,
+    .kont p,
+    .vision p,
+    .nul p,
+    .ujm p,
+    .tru p,
+    .text p,
+    .rob p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .asd {
+        padding: 0 0 20px 35px;
+    }
+    .pro4 {
+        margin-top: 60px;
+    }
+    .logo_legion img {
+        width: 50%;
+    }
+    .pro55 {
+        left: 158px;
+        font-size: 66px;
+        bottom: 25px;
+    }
+    .kont img {
+        width: 97%;
+    }
+    .nowy img,
+    .nul img {
+        width: 90%;
+    }
+    .amd {
+        margin-bottom: 20px;
+    }
+    .vis {
+        margin-top: 50px;
+    }
+    .vision img {
+        width: 60%;
+    }
+    .rob {
+        width: 55%;
+    }
+    .rob img {
+        width: 85%;
+    }
+    .icon {
+        padding: 0 40px;
+    }
+    .igro {
+        margin-right: 75px;
+    }
+    .qwe img {
+        width: 100%;
+    }
+    .zxc {
+        margin-right: 26px;
+    }
+    .pro {
+        margin-top: 30px;
+    }
+    .pro1 p,
+    .pro2 p,
+    .pro3 p,
+    .pro4 p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .grid {
+        row-gap: 35px;
+    }
+    .x {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    h3 {
+        margin-bottom: 10px;
+    }
+    .porty,
+    .pidkl {
+        border-left: 1px solid #327aac;
+    }
+    .video,
+    .show,
+    .akumul,
+    .blok,
+    .kolir {
+        border-left: none;
+    }
+    .logo_lenovo1 {
+        align-items: flex-end;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container_xarakter {
+        height: 1250px;
+    }
+    .grid {
+        row-gap: 25px;
+    }
+    .nowy p,
+    .kont p,
+    .vision p,
+    .nul p,
+    .ujm p,
+    .tru p,
+    .text p,
+    .rob p {
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .logo_lenovo img {
+        width: 45%;
+    }
+    .logo_lenovo1 {
+        bottom: 0;
+        top: inherit;
+        margin-top: 0;
+    }
+    .logo_legion img {
+        width: 41%;
+    }
+    .pro55 {
+        left: 136px;
+        font-size: 59px;
+    }
+    .prom {
+        padding: 0 40px 30px;
+    }
+    .nahimic {
+        padding: 0 0 30px 40px;
+    }
+    .rob {
+        width: 62%;
+    }
+    .rob img {
+        width: 80%;
+    }
+    .robo {
+        padding-right: 70px;
+        padding-top: 10px;
+    }
+    .nowy img {
+        width: 65%;
+    }
+    .kont img {
+        width: 72%;
+    }
+    .tru img {
+        width: 57%;
+    }
+    .nowy,
+    .kont {
+        width: 48%;
+    }
+    .pole {
+        padding: 0 15px;
+    }
+    .vis {
+        margin-top: 30px;
+        width: 220px;
+        margin-bottom: 15px;
+    }
+    .vis img {
+        width: 40%;
+    }
+    .vision img {
+        width: 64%;
+    }
+    .nulowy {
+        padding: 0 30px;
+    }
+    .nul img {
+        width: 85%;
+    }
+    .igro {
+        margin-right: 40px;
+        width: 45%;
+    }
+    .pro {
+        width: 55%;
+        padding-right: 10px;
+    }
+    .pro1 p,
+    .pro2 p,
+    .pro3 p,
+    .pro4 p {
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .pro2,
+    .pro4 {
+        margin-top: 15px;
+    }
+    .pro1 {
+        margin-bottom: 19px;
+    }
+    .icon {
+        padding: 0 0 0 20px;
+    }
+    .qwe img {
+        width: 112%;
+    }
+    h3 {
+        margin-bottom: 10px;
+    }
+    .ccc {
+        font-size: 8px;
+        line-height: 11px;
+    }
+    .oper,
+    .web {
+        border-left: 1px solid #327aac;
+    }
+    .audio {
+        border-left: none;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container_xarakter {
+        height: 1800px;
+    }
+    .nowy p,
+    .kont p,
+    .vision p,
+    .nul p,
+    .ujm p,
+    .tru p,
+    .text p,
+    .rob p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .grid {
+        width: 97%;
+        padding-left: 10px;
+    }
+    .x {
+        font-size: 12px;
+        line-height: 17px;
+        border-left: 1px solid #327aac;
+    }
+    .logo_lenovo img {
+        width: 40%;
+    }
+    .logo_legion img {
+        width: 34%;
+    }
+    .pro55 {
+        left: 117px;
+        font-size: 51px;
+    }
+    .text,
+    .nul {
+        width: 56%;
+    }
+    .rbo {
+        padding-right: 55px;
+    }
+    .kro img {
+        width: 77%;
+    }
+    .rob img {
+        width: 87%;
+    }
+    .nowy img {
+        width: 70%;
+    }
+    .kont img {
+        width: 74%;
+    }
+    .vis {
+        justify-content: flex-start;
+        margin-right: 100px;
+        margin-top: -14px;
+    }
+    .nulowy {
+        padding: 0 35px;
+    }
+    .nul img {
+        width: 80%;
+    }
+    .ujm img {
+        width: 91%;
+    }
+    .qwe img {
+        width: 125%;
+    }
+    .pro1 p,
+    .pro2 p,
+    .pro3 p,
+    .pro4 p {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .pro1 {
+        margin-bottom: 16px;
+    }
+    .ccc {
+        font-size: 8px;
+        line-height: 10px;
+        padding: 13px 0 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container_ryz {
+        margin-bottom: 277px;
+    }
+    .container_game {
+        margin-bottom: 292px;
+    }
+    .container_dolby {
+        margin-bottom: 260px;
+    }
+    .container_fps {
+        margin-bottom: 320px;
+    }
+    .container_legion {
+        margin-bottom: 377px;
+    }
+    .container_true {
+        margin-bottom: 153px;
+    }
+    .container_krok {
+        margin-bottom: 150px;
+    }
+    .container_robota {
+        margin-bottom: 166px;
+    }
+    .container_icons {
+        margin-bottom: 323px;
+    }
+    .ccc {
+        font-size: 9px;
+        line-height: 11px;
+    }
+    .pro1 {
+        margin-bottom: 0px;
+    }
+    .logo_lenovo img {
+        width: 33%;
+    }
+    .asd {
+        padding: 0 0 0px 20px;
+    }
+    .logo_legion img {
+        width: 27%;
+    }
+    .logo_legion {
+        display: flex;
+        align-items: flex-start;
+    }
+    .pro55 {
+        left: 84px;
+        font-size: 42px;
+        bottom: 0;
+    }
+    .igro {
+        margin-right: 70px;
+        width: 65%;
+        margin-top: 27px;
+    }
+    .pro {
+        width: 80%;
+    }
+    .qwe {
+        margin-bottom: 26px;
+    }
+    .icon {
+        flex-direction: column;
+    }
+    .nahimic {
+        flex-direction: column;
+        padding-bottom: 0;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding-left: 60px;
+        top: 131px;
+        width: 99%;
+    }
+    .text {
+        width: 74%;
+    }
+    .robo {
+        padding-left: 60px;
+        justify-content: flex-start;
+    }
+    .rob {
+        width: 100%;
+        margin-top: 289px;
+    }
+    .rob img {
+        width: 69%;
+    }
+    .kro {
+        margin: 0;
+        width: 55%;
+    }
+    .now {
+        top: 237px;
+    }
+    .pole {
+        top: 242px;
+    }
+    .games {
+        top: 240px;
+    }
+    .nulowy {
+        top: 272px;
+    }
+    .prom {
+        top: 167px;
+    }
+    .nul {
+        width: 85%;
+        margin-top: 14px;
+    }
+    .nul img {
+        width: 91%;
+    }
+    .nowy,
+    .kont,
+    .vision {
+        width: 75%;
+    }
+    .amd {
+        margin-bottom: 0;
+        width: 17%;
+    }
+    .nowy img {
+        width: 70%;
+    }
+    .kont img,
+    .kro img {
+        width: 80%;
+    }
+    .vision img {
+        width: 45%;
+    }
+    .vis {
+        margin: 25px 0 0;
+    }
+    .novo {
+        flex-direction: column;
+        padding: 0 0 0 40px;
+    }
+    .yhn {
+        margin-top: 10px;
+        width: 70%;
+        margin-right: 50px;
+    }
+    .ujm {
+        width: 90%;
+    }
+    .ujm img {
+        width: 61%;
+    }
+    .kont,
+    .nul {
+        padding-left: 30px;
+    }
+    .kont {
+        margin-top: 15px;
+    }
+    .tru {
+        width: 91%;
+        padding-left: 20px;
+    }
+    .tru img {
+        width: 43%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .container_ryz {
+        margin-bottom: 298px;
+    }
+    .container_dolby {
+        margin-bottom: 290px;
+    }
+    .container_game {
+        margin-bottom: 289px;
+    }
+    .container_fps {
+        margin-bottom: 338px;
+    }
+    .container_legion {
+        margin-bottom: 362px;
+    }
+    .container_icons {
+        margin-bottom: 319px;
+    }
+    .container_true {
+        margin-bottom: 161px;
+    }
+    .container_krok {
+        margin-bottom: 153px;
+    }
+    .container_robota {
+        margin-bottom: 199px;
+    }
+    .nahimic {
+        top: 141px;
+    }
+    .pro {
+        margin-top: 20px;
+        width: 89%;
+    }
+    .kont img {
+        width: 78%;
+    }
+    .rob {
+        margin-top: 338px;
+    }
+    .logo_lenovo img {
+        width: 30%;
+    }
+    .nul {
+        width: 94%;
+        margin-top: 0;
+    }
+    .prom {
+        top: 176px;
+    }
+    .logo_legion img {
+        width: 24%;
+    }
+    .pro55 {
+        left: 79px;
+        font-size: 35px;
+    }
+    .pole {
+        top: 270px;
+    }
+    .kont {
+        width: 86%;
+    }
+    .games {
+        top: 224px;
+    }
+    .x {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .ccc {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container_ryz {
+        margin-bottom: 320px;
+    }
+    .container_game {
+        margin-bottom: 311px;
+    }
+    .container_dolby {
+        margin-bottom: 290px;
+    }
+    .container_icons {
+        margin-bottom: 329px;
+    }
+    .container_fps {
+        margin-bottom: 365px;
+    }
+    .container_robota {
+        margin-bottom: 181px;
+    }
+    .container_true {
+        margin-bottom: 170px;
+    }
+    .container_krok {
+        margin-bottom: 165px;
+    }
+    .rob img {
+        width: 76%;
+    }
+    .rob {
+        margin-top: 275px;
+    }
+    .logo_lenovo img {
+        width: 26%;
+    }
+    .logo_legion img {
+        width: 22%;
+    }
+    .pro55 {
+        left: 72px;
+        font-size: 31px;
+    }
+    .pole {
+        top: 268px;
+        padding-right: 20px;
+    }
+    .vis {
+        justify-content: center;
+    }
+    .vision {
+        width: 83%;
+    }
+    .kont {
+        width: 90%;
+        margin-top: 28px;
+    }
+    .nul {
+        width: 100%;
+        margin-top: 29px;
+    }
+    .nulowy {
+        top: 258px;
+    }
+    .games {
+        top: 218px;
+    }
+    .ujm img {
+        width: 68%;
+    }
+    .igro {
+        margin-top: 20px;
+        margin-right: 52px;
+    }
+    .pro {
+        width: 98%;
+    }
+    .pro1 {
+        margin-bottom: 16px;
+    }
+    .prom {
+        top: 187px;
+    }
+    .nahimic {
+        top: 154px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container_ryz {
+        margin-bottom: 380px;
+    }
+    .container_game {
+        margin-bottom: 327px;
+    }
+    .container_dolby {
+        margin-bottom: 312px;
+    }
+    .container_fps {
+        margin-bottom: 437px;
+    }
+    .container_legion {
+        margin-bottom: 394px;
+    }
+    .container_true {
+        margin-bottom: 197px;
+    }
+    .container_krok {
+        margin-bottom: 191px;
+    }
+    .container_robota {
+        margin-bottom: 212px;
+    }
+    .grid {
+        width: 100%;
+    }
+    .x {
+        padding-right: 0;
+        width: 88%;
+    }
+    .rob {
+        margin-top: 299px;
+    }
+    .igro {
+        margin-right: 40px;
+        margin-top: 12px;
+    }
+    .nahimic {
+        top: 180px;
+    }
+    .logo_lenovo img {
+        width: 24%;
+    }
+    .logo_legion img {
+        width: 18%;
+    }
+    .pro55 {
+        left: 66px;
+        font-size: 27px;
+    }
+    .icon {
+        padding: 0 10px;
+    }
+    .pro {
+        margin-top: 19px;
+        padding-right: 0;
+    }
+    .now {
+        top: 254px;
+    }
+    .games {
+        top: 225px;
+    }
+    .nulowy {
+        top: 280px;
+    }
+    .nowy img,
+    .kont img {
+        width: 80%;
+    }
+    .pole {
+        top: 295px;
+    }
+    .ujm {
+        width: 83%;
+    }
+    .ujm img {
+        width: 71%;
+    }
+    .prom {
+        top: 213px;
+    }
+    .kont {
+        width: 97%;
+        margin-top: 0;
+    }
+    .nul {
+        margin-top: 30px;
+    }
+}
