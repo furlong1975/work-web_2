@@ -443,6 +443,30 @@ h3 {
     padding-top: 25px;
 }
 
+
+/*section button-up*/
+
+#button-up {
+    display: none;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    color: #880000;
+    font-size: 40px;
+    font-weight: 900;
+    transition: .5s;
+}
+
+#button-up:hover {
+    cursor: pointer;
+    color: #383838;
+    transition: .5s;
+}
+
+textarea.form-control {
+    height: 130px;
+}
+
 @media screen and (max-width: 1440px) {
     .container_xarakter {
         height: 1250px;
